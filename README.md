@@ -2,6 +2,7 @@
 - 👀 I’m interested in ... Building Web apps
 - 🌱 I’m currently learning ...Blockchain Development
 - 📫 How to reach me ... rajdeepbasunia57@gmail.com
+-    Author .... Rajdeep Basunia
 
 <!---
 RajdeepBasunia001/RajdeepBasunia001 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
