@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockChainDemoApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Blockchain Demo</h1>
+        <select id="mySelect" name="mySelect">
+  <option value="1">Difficulty 1</option>
+  <option value="2">Difficulty 2 </option>
+  <option value="3">Difficulty 3 </option>
+  <option value="4">Difficulty 4 </option>
+</select>
+
+            <div class="block" id="gen">
+            <p>Genesis Block</p>
+            <input type="text" id="index1"  value="#1">
+            <input type="text" id="data1" placeholder="Data">
+            <input type="text" id="non1" placeholder="Nonse">
+            <p class="status">Status: Pending</p>
+            <button class="mine-btn" id="btn1">Mine</button>
+            <p class="phash">Previous Hash :</p>
+            <p class="hash">Hash :</p>
+            <p class="ts">TimeStamps :</p>
+        </div>
+
+        <div class="block" id="blk1">
+            <p>Block 1</p>
+            <input type="text" id="index2"  value="#2">
+            <input type="text" id="data2" placeholder="Data">
+            <input type="text" id="non2" placeholder="Nonse">
+            <p class="status">Status: Pending</p>
+            <button class="mine-btn" id="btn2">Mine</button>
+            <p class="phash">Previous Hash :</p>
+            <p class="hash">Hash :</p>
+            <p class="ts">TimeStamps :</p>
+        </div>
+        <div class="block" id="blk2">
+            <p>Block 2</p>
+            <input type="text" id="index3" value="#3" >
+            <input type="text" id="data3" placeholder="Data">
+            <input type="text" id="non3" placeholder="Nonse">
+            <p class="status">Status: Pending</p>
+            <button class="mine-btn" id="btn3">Mine</button>
+            <p class=phash>Previous Hash :</p>
+            <p class="hash">Hash :</p>
+            <p class="ts">TimeStamps :</p>
+        </div>
+    </div>
+    <script src="blockchain_simulation.js"></script>
+    
+
+
+   
+
+</body>
+
+</html>
